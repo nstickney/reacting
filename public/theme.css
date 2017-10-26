@@ -1,0 +1,40 @@
+html, body {
+    min-height: 100vh;
+}
+
+.bg-cosmic {
+    background: #fff8e7;
+}
+
+.bg-orange {
+    background: rgba(153, 51, 0, 1);
+}
+
+.bg-wool {
+    background: url("img/zigzagwooltrans.png");
+}
+
+.card {
+    box-shadow: 1px 3px 4px -1px;
+}
+
+.dropdown-menu {
+    background: rgba(231, 231, 231, 0.97)
+}
+
+.logorotate { 
+    animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.text-cosmic {
+    color: #fff8e7;
+}
+
+.text-cosmic :hover {
+    color: #ffe8b3;
+}
